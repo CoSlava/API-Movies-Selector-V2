@@ -19,7 +19,6 @@ html, body {
 }
 
 .slider-txt{
-    width: 940px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +29,11 @@ html, body {
 
 h1{
     font-size: 2.65rem;
-    margin-left: 5vw;
+    padding-left: 5vw;
+}
+
+.slider-txt>h1{
+    padding-right: 5vw;
 }
 
 .slider-links{
